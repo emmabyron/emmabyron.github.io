@@ -1,4 +1,4 @@
-db = db.split("\n").map(function semicolonSplit(string) {return string.split("; ");});
+db = db.split("\n").map(string => string.split("; "));
 
 var output = "";
 
