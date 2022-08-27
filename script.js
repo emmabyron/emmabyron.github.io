@@ -1,5 +1,1 @@
-document.getElementById("tournaments").innerHTML = `
-    <tr>
-        <td>Information</td>
-    </tr>
-`;
+document.getElementById("tournaments").innerHTML = db;

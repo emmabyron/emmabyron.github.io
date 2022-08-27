@@ -1,0 +1,5 @@
+var db = `
+    <tr>
+        <td>Information</td>
+    </tr>
+`
