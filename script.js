@@ -1,11 +1,11 @@
 db = db.split("\n").map(string => string.split("; "));
 
-var output = "";
+let output = "";
 
-for (let i of db) {
+for (const i of db) {
     output += "<tr>";
 
-    for (let j of i) {
+    for (const j of i) {
         output += "<td>";
         output += j;
         output += "</td>";
